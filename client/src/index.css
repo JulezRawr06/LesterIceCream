@@ -36,7 +36,7 @@ body {
 
 main {
     display: grid;
-    grid-template-rows: 720px 1200px 305px 800px 975px 850px 500px 75px;
+    grid-template-rows: 720px 1200px 350px 800px 975px 850px 500px 75px;
     height: 100%;
     position: relative;
 
@@ -401,6 +401,74 @@ a {
     width: 100%;
 
 }
+
+.schedule {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.schedule__wrapper {
+
+    border: 1px black solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 500px;
+    height: 263px;
+
+    padding: 1.5rem;
+
+    transition: all 2s ease;
+
+}
+
+.schedule__wrapper:hover {
+
+    cursor: pointer;
+    transform: rotateY(-180deg);
+    background-color: #79694f;
+
+}
+
+.schedule__header {
+
+    color: #79694f;
+
+    font-family: var(--lilitaOne);
+    font-size: 3.5rem;
+
+    transition: all 1.5s;
+
+}
+
+.schedule__wrapper:hover > .schedule__header {
+    display: none;
+}
+
+.schedule__status {
+
+    color: snow;
+
+    -webkit-text-stroke: 4px #79694f;
+
+    font-family: var(--lilitaOne);
+    font-size: 8rem;
+
+    transition: all 1.5s;
+
+}
+
+.schedule__wrapper:hover > .schedule__status {
+    display: none;
+}
+
 
 .block__links {
     display: grid;
