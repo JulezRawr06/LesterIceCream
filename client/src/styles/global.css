@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+
+:root {
+    /* FONTS */
+    --tiltNeon: 'Tilt Neon', sans-serif;
+    --lilitaOne: 'Lilita One', sans-serif;
+    --indieFlower: 'Indie Flower', cursive;
+    --volkorn: 'Vollkorn', serif;
+    --koulen: 'Koulen', sans-serif;
+    --secularOne: 'Secular One', sans-serif;
+    --rampartOne: 'Rampart One', sans-serif;
+    --playPen: 'Playpen Sans', cursive;;
+
+    /* PAGE */
+    --background: snow;
+
+    /* COLOR SCHEMES*/ /* x - 4594B */
+
+    /* strawberry */
+    --strawberryPrimary: #ffc0cb;
+    --strawberrySecondary: #ffebcd;
+    --strawberryAccent: #ffa8b7;
+
+    --strawberryTextHover: #fb6780;
+    /* --strawberryTextHover: #9c646e; */
+    
+    /* chocolate */
+    --chocolatePrimary: #deb887;
+
+    --chocolateTextHover: #64481d;
+
+    /* cookiesNcream */
+    --cookiesNcreamPrimary: #d6c7bb;
+
+    --cookiesNcreamTextHover: #5f5349;
+
+    /* ube */
+    --ubePrimary: #8878c3;
+
+    --ubeTextHover: #11114e;
+
+    /* mango */
+    --mangoPrimary: #ffbf34;
+
+    --mangoTextHover: #764a00;
+
+    /* melon */
+    --melonPrimary: #febaad;
+
+    --melonTextHover: #7e463d;
+
+    /* buko */
+    --bukoPrimary: #d2fba4;
+
+    --bukoTextHover: #4f7628;
+
+    /* buko pandan */
+    --bukoPandanPrimary: #83ce89;
+
+    --bukoPandanTextHover: #01591e;
+
+    /* langka */
+    --langkaPrimary: #f7c681;
+
+    --langkaTextHover: #74500e;
+
+    /* macapuno */
+    --macapunoPrimary: #d89074;
+
+    --macapunoTextHover: #5e2611;
+
+    /* avocado */
+    --avocadoPrimary: #568203;
+
+    --avocadoTextHover: #b6e16b;
+
+    /* cheese */
+    --cheesePrimary: #ffa600;
+
+    --cheeseTextHover: #793800;
+
+}
