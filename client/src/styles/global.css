@@ -27,6 +27,12 @@
 
     /* COLOR SCHEMES*/ /* x - 4594B */
 
+    /* current */
+    --currentPrimary: var(--strawberryPrimary);
+    --currentSecondary: var(--strawberrySecondary);
+    --currentAccent: var(--strawberryAccent);
+    --currentTextHover: var(--strawberryTextHover);
+
     /* strawberry */
     --strawberryPrimary: #ffc0cb;
     --strawberryPrimaryRGB: 255, 192, 203;
@@ -37,17 +43,20 @@
     /* --strawberryTextHover: #9c646e; */
     
     /* chocolate */
-    --chocolatePrimary: #deb887;
+    --chocolatePrimary: #A7796D;
+    --chocolateAccent: #966e63;
 
-    --chocolateTextHover: #64481d;
+    --chocolateTextHover: #341104;
 
     /* cookiesNcream */
     --cookiesNcreamPrimary: #d6c7bb;
+    --cookiesNCreamAccent: #a4928b;
 
     --cookiesNcreamTextHover: #5f5349;
 
     /* ube */
     --ubePrimary: #8878c3;
+    --ubeAccent: #7b69b6;
 
     --ubeTextHover: #11114e;
 
