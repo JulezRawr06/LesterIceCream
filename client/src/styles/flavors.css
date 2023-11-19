@@ -469,6 +469,19 @@ a {
 
 #strawberry_flavor_IC {
     color: var(--strawberryTextHover);
+    position: relative;
+    background: radial-gradient(circle at 10% 20%, rgb(246, 187, 187) 0%, rgb(249, 219, 217) 90%); 
+    overflow: hidden;
+}
+
+.strawberry_flavor_image {
+
+    position: absolute;
+    right: -50px;
+    width: 400px;
+    opacity: 0.8;
+    bottom: -67px;
+
 }
 
 .flavor__info.strawberry_flavor {
