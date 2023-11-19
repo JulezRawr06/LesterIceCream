@@ -1,0 +1,141 @@
+@import url("./global.css");
+
+*, *::before, *::after {
+    box-sizing : inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: absolute;
+    background-color: transparent;
+
+    min-width: 100vw;
+    height: 60px;
+    width: max(100vw, 1221px); /*temp fix*/
+
+    backdrop-filter: invert(30%);
+
+    z-index: 100;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    height: 100%;
+}
+
+li {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.2s;
+}
+
+li:hover {
+
+    box-shadow: 0px -5px 0px 0px rgba(255,192,203,0.75) inset;
+
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+.border-test { border: 1px black solid; } /* utility */
+.label-test {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__links {
+
+    color: white;
+    font-family: var(--tiltNeon);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-transform: uppercase;
+
+    letter-spacing: 0.2rem;
+    
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+    height: 100%;
+
+    padding: 0.5rem;
+
+    transition: color 0.2s;
+
+}
+
+.navigation__links:hover {
+    color: var(--currentPrimary);
+}
+
+.logo {
+
+    width: fit-content;
+    height: fit-content;
+
+    border-radius: 2%;
+
+    background-color: snow;
+
+}
+
+main {
+    display: grid;
+    grid-template-rows: 550px 200px;
+    height: 100%;
+    position: relative;
+
+    width: 100vw;
+
+}
+
+.layout__header {
+
+}
+
+.layout__heading {
+    
+    background-color: var(--currentPrimary);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.layout__heading > h1 {
+
+    font-size: 9rem;
+    font-family: var(--lilitaOne);
+    color: snow
+
+}
