@@ -18,7 +18,7 @@ body {
 
 main {
     display: grid;
-    grid-template-rows: 750px 100px repeat(12, 800px) 75px;
+    grid-template-rows: 550px 200px repeat(12, 800px) 75px;
     height: 100%;
     position: relative;
 
@@ -108,6 +108,7 @@ a {
     font-weight: bolder;
 
     height: 100%;
+    width: 123px;
 
     padding: 0.5rem;
 
@@ -130,7 +131,6 @@ a {
 
 
 }
-
 
 .process__imageWrapper {
     position: relative;
@@ -156,6 +156,8 @@ a {
 
     background-image: url("../../assets/images/process/process_bg.jpg");
     background-position: center 100%;
+    background-size: cover;
+    background-attachment: fixed;
 
     opacity: 60%;
 
@@ -211,6 +213,21 @@ a {
 
 .process__divider {
     background-color: var(--strawberryPrimary);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.process__divider > h1 {
+
+    font-family: var(--lilitaOne);
+    font-size: 8.5rem;
+
+    white-space: nowrap;
+
+    color: snow;
+
 }
 
 .process__story.split {

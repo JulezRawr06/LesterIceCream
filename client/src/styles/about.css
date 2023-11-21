@@ -86,6 +86,7 @@ a {
     font-weight: bolder;
 
     height: 100%;
+    width: 123px;
 
     padding: 0.5rem;
 
@@ -110,7 +111,7 @@ a {
 
 main {
     display: grid;
-    grid-template-rows: 550px 200px;
+    grid-template-rows: 550px 200px 1100px 100vh 45vh 625px 75vh 625px 70vh 625px 70vh 625px 100vh 625px 800px 800px 75px;
     height: 100%;
     position: relative;
 
@@ -119,6 +120,11 @@ main {
 }
 
 .layout__header {
+
+    background-image: url("../../assets/images/about/about_cover.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -137,5 +143,264 @@ main {
     font-size: 9rem;
     font-family: var(--lilitaOne);
     color: snow
+
+}
+
+.layout__description {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 4rem 0 0 0;
+
+    position: relative;
+
+}
+
+.layout__description > h2 {
+
+    font-family: var(--lilitaOne);
+    font-size: 4.5rem;
+    white-space: nowrap;
+
+}
+
+.layout__descriptionImage1 {
+
+    background-color: lightsteelblue;
+    width: 325px;
+    height: 435px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+}
+
+.layout__descriptionImage2 {
+
+    background-color: lightsteelblue;
+    width: 325px;
+    height: 325px;
+    position: absolute;
+    top: 62%;
+    left: 20%;
+
+}
+
+.layout__descriptionImage3 {
+
+    background-color: lightsteelblue;
+    width: 485px;
+    height: 325px;
+    position: absolute;
+    top: 62%;
+    left: 45%;
+
+}
+
+.description__textWrapper {
+
+    border: 1px black solid;
+    height: 435px;
+    width: 485px;
+    position: absolute;
+    right: 21.3%;
+    top: 20%;
+    
+
+}
+
+.layout__first {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card1 {
+
+    font-family: var(--indieFlower);
+    font-size: 3.5rem;
+
+}
+
+.card2 {
+
+    background-image: url("https://media.wired.com/photos/5926f270cefba457b079ba55/master/pass/GettyImages-77328837.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+
+    color: snow;
+    font-family: var(--kanit);
+    font-size: 3rem;
+
+    -webkit-text-stroke: 2px black;
+
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.card3 {
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/23/4031jfSapang_Biabas_Mawaque_Dapdap_Mabalacat_Pampangafvf_09.JPG);
+    background-position: center center;
+    background-size: 100%;
+    background-attachment: fixed;
+
+    color: snow;
+    font-family: var(--kanit);
+    font-size: 3.8rem;
+
+    -webkit-text-stroke: 2px black;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card4 {
+
+    background-image: url("https://scontent.fcrk2-2.fna.fbcdn.net/v/t39.30808-6/309396256_480157680800191_1010782694112192493_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH3qQzkWBczbuEj_4-ikJk0-l4PhrW8rD76Xg-GtbysPk8eokFozGRw6y7EN1UJmEjxOEH80Ko9AxjarQU5-kFR&_nc_ohc=vRe9ZuHyOq0AX-bfxoV&_nc_ht=scontent.fcrk2-2.fna&oh=00_AfBIPcJZr-0aphJt-lpLRk68_Vzn9k_ZcFbWe0466irCVg&oe=65623C2C");
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+
+    color: snow;
+    font-family: var(--kanit);
+    font-size: 4rem;
+
+    -webkit-text-stroke: 2px black;
+
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.card5 {
+
+    background-image: url("https://scontent.fcrk2-1.fna.fbcdn.net/v/t39.30808-6/312581126_497702855712340_1063928105294501879_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHNRcDQGhvxhjp6I-HsjXemN16PWRgBnyQ3Xo9ZGAGfJOt8dCXZd9S5MyUanETFTjWDzhimI9a1gGjoeS8Td2El&_nc_ohc=9sA1NNAGiLYAX9gxA-D&_nc_ht=scontent.fcrk2-1.fna&oh=00_AfCEsJUC_W5_IrnHzp5ocpEjuN_awtoNX7bi5TeIcuCaww&oe=6562554B");
+    background-size: cover;
+    background-position: center 30%;
+    background-attachment: fixed;
+
+    color: snow;
+    font-family: var(--kanit);
+    font-size: 4rem;
+
+    -webkit-text-stroke: 2px black;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card6 {
+
+    background-image: url("https://scontent.fcrk2-2.fna.fbcdn.net/v/t1.18169-9/13873108_158858827872528_7014143579155146331_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=300f58&_nc_eui2=AeF17mvGPn3J_RZjndPamuMTOxBtOPcES047EG049wRLTvFBYel36E--IMsfel-Yq80EPfT1qyczBIryS-0ulpv3&_nc_ohc=d3-HlpXrkjcAX8iUfQG&_nc_ht=scontent.fcrk2-2.fna&oh=00_AfAiYTuyOgvppFjjvKJ0ScVkaefC-_wH6YT1QoWwvbO-qw&oe=65844FDD");
+    background-size: cover;
+    background-position: center 30%;
+    background-attachment: fixed;
+
+    color: snow;
+    font-family: var(--kanit);
+    font-size: 4rem;
+
+    -webkit-text-stroke: 2px black;
+
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.text {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+
+}
+
+.textWrapper {
+
+    width: 60%;
+    height: auto;
+
+    font-family: var(--koulen);
+    font-size: 1.5rem;
+
+    line-height: 53px;
+
+}
+
+.layout__media {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 4rem 0 2rem 0;
+
+}
+
+.layout__media > h2 {
+
+    font-family: var(--lilitaOne);
+    font-size: 5rem;
+    margin: 2.5rem 0;
+
+}
+
+.layout__faqs {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 4rem 0 2rem 0;
+
+}
+
+.layout__faqs > h2 {
+
+    font-family: var(--lilitaOne);
+    font-size: 5rem;
+    margin: 2.5rem 0;
+
+}
+
+.footer {
+
+    border-top: 2px black solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: snow;
+
+}
+
+.footer__text {
+
+    font-family: var(--tiltNeon);
+    font-weight: bold;
+
+}
+
+.footer__link {
+
+    color: black;
+
+    transition: all 0.3s;
+
+}
+
+.footer__link:hover {
+
+    color: rgb(251, 103, 128);
 
 }
