@@ -471,7 +471,7 @@ a {
 #strawberry_flavor_IC {
     color: var(--strawberryTextHover);
     position: relative;
-    background: radial-gradient(circle at 10% 20%, rgb(246, 187, 187) 0%, rgb(249, 219, 217) 90%); 
+    background-image: url("../../assets/images/flavors/strawberry_banner.jpg");
     overflow: hidden;
 }
 

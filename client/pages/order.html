@@ -398,17 +398,30 @@
 
                 <form action="" class="menu__form">
 
-                    <label for="">NAME:</label>
-                    <input type="text">
+                    <div class="form__deliverTo">
+                        <h4>DELIVER TO</h4>
+                        <input type="text" placeholder="FIRST NAME" style="width: 50%;">
+                        <input type="text" placeholder="LAST NAME" style="width: 49.2%;">
+                    </div>
 
-                    <label for="">EMAIL:</label>
-                    <input type="email" name="" id="">
+                    <div class="form__address">
+                        <h4>ADDRESS</h4>
+                        <input type="text" placeholder="STREET ADDRESS" style="display: block; width: 100%;">
+                        <input type="text" placeholder="STREET ADDRESS 2" style="display: block; width: 100%;">
+                        <input type="text" placeholder="CITY" style="width: 50%;">
+                        <input type="text" placeholder="REGION" style="width: 49.2%;">
+                    </div>
 
-                    <label for="">PHONE NUMBER:</label>
-                    <input type="number" name="" id="">
+                    <div class="form__description">
+                        <h4>DESCRIPTION</h4>
+                        <textarea placeholder="DESCRIPTION" cols="30" rows="10" style="width: 100%; resize: none; outline: none; padding: 1rem; font-family: var(--tiltNeon);"></textarea>
+                    </div>
 
-                    <label for="">ADDRESS:</label>
-                    <input type="text">
+                    <div class="form__dates">
+                        <h4>DATES</h4>
+                        <input type="date" placeholder="DATE OF ORDER" style="width: 50%;">
+                        <input type="date" placeholder="PREFERRED DATE OF DELIVERY" style="width: 49.2%;">
+                    </div>
 
                     <button class="menu__checkout">CHECKOUT</button>
 
