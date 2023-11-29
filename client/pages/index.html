@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Lester's Ice Cream</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/styles/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
+
+<!-- 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV -->
+
 <body>
 
     <nav class="">
@@ -30,19 +37,19 @@
 
             <div class="highlight highlight__strawberry strawberry" style="background-color: pink;">
                 <img src="../assets/images/ice_cream/strawberry_icecream.png" class="strawberry__ice-cream">
-                <div class="highlight__circle strawberry__circle strawberry__circle1"></div>
+                <!-- <div class="highlight__circle strawberry__circle strawberry__circle1"></div>
                 <div class="highlight__circle strawberry__circle strawberry__circle2"></div>
                 <div class="highlight__circle strawberry__circle strawberry__circle3"></div>
-                <div class="highlight__circle strawberry__circle strawberry__circle4"></div>
+                <div class="highlight__circle strawberry__circle strawberry__circle4"></div> -->
             </div>
             <div class="highlight chocolate" style="background-color: #A7796D;">
-                <div class="highlight__circle chocolate__circle1"></div>
+                <img src="../assets/images/ice_cream/chocolate_icecream.png" class="strawberry__ice-cream">
             </div>
             <div class="highlight cookiescream" style="background-color: #d6c7bb;">
-                <div class="highlight__circle cookiesncream__circle1"></div>
+                <img src="../assets/images/ice_cream/cookiesNcream_icecream.png" class="strawberry__ice-cream">
             </div>
             <div class="highlight ube" style="background-color: #8878c3;">
-                <div class="highlight__circle ube__circle1"></div>
+                <img src="../assets/images/ice_cream/ube_icecream.png" class="strawberry__ice-cream">
             </div>
 
         </header>
@@ -152,6 +159,13 @@
                 <img src="../assets/images/photo3.jpg" class="story__image3">
                 <img src="../assets/images/photo4.jpg" class="story__image4">
 
+                <div class="story__imagesWrapper--mobile">
+                    <img src="../assets/images/photo1.jpg">
+                    <img src="../assets/images/photo2.jpg">
+                    <img src="../assets/images/photo3.jpg">
+                    <img src="../assets/images/photo4.jpg">
+                </div>
+
             </div>
 
         </section>
@@ -186,17 +200,16 @@
                 </div>
             </div>
 
-        </section>
 
+        </section>
         <section class="ending">
-            <h1 class="ending__header">SWEETNESS <br> <p style="font-family: var(--lilitaOne); letter-spacing: 0.05rem;">IN EVERYDAY LIFE!</p></h1>
+            <h1 class="ending__header">SWEETNESS <br> <p style="font-family: var(--lilitaOne); letter-spacing: 0.05rem; text-align: center;">IN EVERYDAY LIFE!</p></h1>
             <img src="" alt="" class="ending__logo">
         </section>
 
         <footer class="footer">
             <p class="footer__text">&copy; 2023 Lester's Ice Cream | All Rights Reserved | <a href="" class="footer__link">Contact Us</a></p>
         </footer>
-
     </main>
 
 </body>

@@ -1,6 +1,13 @@
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
-  }
+}
+
+let width;
+
+window.onresize = function () {
+    width = window.innerWidth;
+}
+
 
 /* header images event */
 
@@ -78,7 +85,13 @@ flavors.forEach(flavor => {
     if (flavorInfoStyles.display == "none") {
         flavorInfo.style.display = "block";
         flavorInfo.style.height = "500px";
-        flavorInfo.style.width = "95%";
+        // if ( width >= 768) {
+        //     flavorInfo.style.width = "95%";
+        // } else if ( width >= 480 && width < 768 ){
+        //     flavorInfo.style.width = "70%";
+        // } else if ( width >= 0 && width < 480 ) {
+        //     flavorInfo.style.width = "60%";
+        // }
         flavor.style.borderRadius = "0px";
         flavor.style.transform = "scale(1.03)"
         flavor.style.boxShadow = "0px 1px 4px 0.2px rgba(0,0,0,0.40)"
