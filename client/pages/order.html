@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="../src/styles/order.css">
 </head>
 <body>
+
+  <section id="load-cont">
+    <div id="load-box">
+      <img src="..\assets\images\Loading Screen.gif" alt="Loading...">
+    </div>
+  </section>
+
+  <script>
+  setTimeout(function() {
+    document.getElementById("load-box").style.display = "none";
+  }, 7000);
+</script>
+
     <nav class="">
         <ul class="">
             <li><a class="navigation__links" href="./index.html">Home</a></li>
@@ -14,7 +27,7 @@
             <li><a class="navigation__links" href="./process.html">Process</a></li>
         </ul>
 
-        <img src="" alt="Lesters" class="logo">
+        <img src="..\assets\images\logo.svg" alt="Lesters" class="logo">
 
         <ul class="">
             <li style="box-shadow: 0px -5px 0px 0px rgba(255,192,203,0.75) inset;"><a style="color: var(--currentPrimary);" class="navigation__links" href="./order.html">Order</a></li>

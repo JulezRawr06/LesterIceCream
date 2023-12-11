@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="../src/styles/flavors.css">
 </head>
 <body>
+
+  <section id="load-cont">
+    <div id="load-box">
+      <img src="..\assets\images\Loading Screen.gif" alt="Loading...">
+    </div>
+  </section>
+
+  <script>
+  setTimeout(function() {
+    document.getElementById("load-box").style.display = "none";
+  }, 7000);
+</script>
+
     <nav class="">
         <ul class="">
             <li><a class="navigation__links" href="./index.html">Home</a></li>
@@ -14,7 +27,7 @@
             <li><a class="navigation__links" href="./process.html">Process</a></li>
         </ul>
 
-        <img src="" alt="Lesters" class="logo">
+        <img src="..\assets\images\logo.svg" alt="Lesters" class="logo">
 
         <ul class="">
             <li><a class="navigation__links" href="./order.html">Order</a></li>
@@ -27,11 +40,11 @@
         <header class="flavors__header">
             <div class="blurr"></div>
         </header>
-        
+
         <section class="flavors__title">
             <h1>FLAVORS</h1>
         </section>
-        
+
         <section class="flavors__menu">
             <div class="flavors__menuWrapper">
                 <h2>ICE CREAM</h2>
@@ -44,7 +57,7 @@
                         <div class="flavor__infoWrapper strawberry_flavor">
                             <h2 class="flavor__info__heading strawberry_flavor">STRAWBERRY</h2>
                             <div class="flavor__info__content strawberry_flavor">
-                                A classic. Experience a sweet but familiar taste with our strawberry ice cream. Made with the finest strawberries sourced, sweet and fruity to the core, we make sure our strawberry ice cream brings out the true original taste of strawberries with no artificial sweeteners to bring out that sweet and tarty flavor. 
+                                A classic. Experience a sweet but familiar taste with our strawberry ice cream. Made with the finest strawberries sourced, sweet and fruity to the core, we make sure our strawberry ice cream brings out the true original taste of strawberries with no artificial sweeteners to bring out that sweet and tarty flavor.
                             </div>
                             <button class="flavor__info__button strawberry_flavor"><a>HAVE A TASTE</a></button>
                             <img src="../assets/images/flavors/strawberry.png" class="flavor__strawberry__image">
@@ -60,7 +73,7 @@
                         <div class="flavor__infoWrapper chocolate_flavor">
                             <h2 class="flavor__info__heading chocolate_flavor">CHOCOLATE</h2>
                             <div class="flavor__info__content chocolate_flavor">
-                                You can’t go wrong with good old chocolate! Our Chocolate ice cream is made from the finest ingredients to ensure the consistency of its flavor. Just the right balance of chocolaty goodness and sweet and milky makes our chocolate ice cream one you won’t forget! 
+                                You can’t go wrong with good old chocolate! Our Chocolate ice cream is made from the finest ingredients to ensure the consistency of its flavor. Just the right balance of chocolaty goodness and sweet and milky makes our chocolate ice cream one you won’t forget!
                             </div>
                             <button class="flavor__info__button chocolate_flavor"><a>HAVE A TASTE</a></button>
                             <img src="../assets/images/flavors/chocolate.png" class="flavor__chocolate__image">
@@ -124,7 +137,7 @@
                         <div class="flavor__infoWrapper melon_flavor">
                             <h2 class="flavor__info__heading melon_flavor">MELON</h2>
                             <div class="flavor__info__content melon_flavor">
-                                Another tropical Delicacy. Have a unique experience with a rather unique flavor that you don’t find often. Our Melon ice cream gives you a new, refreshing, and sweet sensation that’s perfect for those hot summer days. 
+                                Another tropical Delicacy. Have a unique experience with a rather unique flavor that you don’t find often. Our Melon ice cream gives you a new, refreshing, and sweet sensation that’s perfect for those hot summer days.
                             </div>
                             <button class="flavor__info__button melon_flavor"><a>HAVE A TASTE</a></button>
                             <img src="../assets/images/flavors/melon.png" class="flavor__melon__image">
@@ -156,7 +169,7 @@
                         <div class="flavor__infoWrapper bukoPandan_flavor">
                             <h2 class="flavor__info__heading bukoPandan_flavor">BUKO PANDAN</h2>
                             <div class="flavor__info__content bukoPandan_flavor">
-                                Another Filipino Favorite. Our Buko Pandan ice cream mixes the sweet and fruity taste of young coconut with the aromatic and nutty taste of pandan, add some gelati, cream and sugar and you have a vibrant and explosive mix of sweet, nutty, and fruity delight. 
+                                Another Filipino Favorite. Our Buko Pandan ice cream mixes the sweet and fruity taste of young coconut with the aromatic and nutty taste of pandan, add some gelati, cream and sugar and you have a vibrant and explosive mix of sweet, nutty, and fruity delight.
                             </div>
                             <button class="flavor__info__button bukoPandan_flavor"><a>HAVE A TASTE</a></button>
                             <img src="../assets/images/flavors/bukoPandan.png" class="flavor__bukoPandan__image">
@@ -261,7 +274,7 @@
                 </div>
             </div>
         </section>
-        
+
         <footer class="footer">
             <p class="footer__text">&copy; 2023 Lester's Ice Cream | All Rights Reserved | <a href="" class="footer__link">Contact Us</a></p>
         </footer>

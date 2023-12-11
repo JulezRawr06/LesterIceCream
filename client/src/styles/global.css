@@ -41,7 +41,7 @@
 
     --strawberryTextHover: #fb6780;
     /* --strawberryTextHover: #9c646e; */
-    
+
     /* chocolate */
     --chocolatePrimary: #A7796D;
     --chocolateAccent: #966e63;
@@ -100,4 +100,38 @@
 
     --cheeseTextHover: #793800;
 
+}
+
+#load-cont {
+  margin: 0;
+  overflow: hidden;
+}
+
+#load-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(91, 110, 255, 0.85);
+  animation: fadeInOut 7s ease-in-out;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#load-box img {
+  max-width: 75vw;
+  max-height: 75vh;
+  object-fit: contain;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  14%, 86% {
+    opacity: 1;
+  }
 }
